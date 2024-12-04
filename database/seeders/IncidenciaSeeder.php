@@ -13,6 +13,6 @@ class IncidenciaSeeder extends Seeder
      */
     public function run(): void
     {
-        Incidencia::factory()->count(50)->create();
+        Incidencia::factory()->count(5000)->create();
     }
 }
