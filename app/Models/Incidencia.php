@@ -11,4 +11,6 @@ class Incidencia extends Model
     use HasFactory;
 
     protected $table = 'incidencias';
+
+
 }

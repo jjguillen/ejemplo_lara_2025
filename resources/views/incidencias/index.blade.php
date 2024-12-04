@@ -6,7 +6,7 @@
     <title>Incidencias</title>
 </head>
 <body>
-    <h2>Incidencias</h2>
+    <h2>{{$titulo}}</h2>
 
     <ul>
     @foreach($incidencias as $incidencia)
