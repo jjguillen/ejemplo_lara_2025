@@ -17,7 +17,12 @@ class IncidenciaFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            "latitud" => $this->faker->latitude(),
+            "longitud" => $this->faker->longitude(),
+            "ciudad" => $this->faker->city(),
+            "direccion" => $this->faker->address(),
+            "descripcion" => $this->faker->text(),
+            "estado" => $this->faker->randomElement(['inicio', 'enproceso', 'resuelta', 'noresuelta']),
         ];
     }
 }
