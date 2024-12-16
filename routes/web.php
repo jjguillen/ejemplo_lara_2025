@@ -8,3 +8,4 @@ Route::get('/', function () {
 });
 
 Route::get('/incidencias', [IncidenciaController::class, 'index']);
+//Aquí seguimos
